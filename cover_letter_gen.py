@@ -4,8 +4,15 @@ import os
 import glob
 
 '''
+Info
+This script generates a cover letter based off of your template and edits the company name/job title to save you some processing effort. 
+
 Requirements
+Python3
 sudo apt-get install texlive-latex-extra
+
+Run fo example to generate a pdf cover letter for a Software Developer role at Google
+python3 cover_letter_gen.py --companyname="Google" --nameofjob="Software Developer"
 '''
 
 # Your cover letter specific includes
